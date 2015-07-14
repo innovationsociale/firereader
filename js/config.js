@@ -20,11 +20,11 @@ angular.module('myApp.config', [])
    .constant('NUMBER_TO_FETCH', 25)
 
    .constant('authProviders', [
-      { id: 'twitter',  name: 'Twitter',  icon: 'icon-twitter'  },
-      { id: 'facebook', name: 'Facebook', icon: 'icon-facebook' },
-      { id: 'github',   name: 'GitHub',   icon: 'icon-github'   },
-      { id: 'google',   name: 'Google',   icon: 'icon-google'   }
-//         { id: 'email',    name: 'Email',    icon: 'icon-envelope' }
+     { id: 'twitter',  name: 'Twitter',  icon: 'icon-twitter'  },
+   //   { id: 'facebook', name: 'Facebook', icon: 'icon-facebook' },
+   //   { id: 'github',   name: 'GitHub',   icon: 'icon-github'   },
+    //  { id: 'google',   name: 'Google',   icon: 'icon-google'   }
+         { id: 'email',    name: 'Email',    icon: 'icon-envelope' }
    ])
 
    .config(function($logProvider) {
