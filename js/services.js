@@ -112,7 +112,7 @@
          });
 
          //todo snag this from $location?
-         $scope.link = $scope.isDemo ? '19068588' : 'hearth';
+         $scope.link = $scope.isDemo ? 'demo' : 'hearth';
 
          $scope.isActive = function (feedId) {
             return $scope.activeFeed === feedId;
