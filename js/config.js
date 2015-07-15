@@ -24,7 +24,7 @@ angular.module('myApp.config', [])
    //   { id: 'facebook', name: 'Facebook', icon: 'icon-facebook' },
    //   { id: 'github',   name: 'GitHub',   icon: 'icon-github'   },
     //  { id: 'google',   name: 'Google',   icon: 'icon-google'   }
-         { id: 'email',    name: 'Email',    icon: 'icon-envelope' }
+       //  { id: 'email',    name: 'Email',    icon: 'icon-envelope' }
    ])
 
    .config(function($logProvider) {
