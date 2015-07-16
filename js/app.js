@@ -23,10 +23,16 @@
          $routeProvider.when('/hearth', {
             templateUrl: 'partials/hearth.html',
             controller: 'HearthCtrl',
-            authRequired: true,
+            authRequired: false,
             reloadOnSearch: false
          });
          $routeProvider.when('/demo', {
+            templateUrl: 'partials/hearth.html',
+            controller: 'DemoCtrl',
+            authRequired: false,
+            reloadOnSearch: false
+         });
+         $routeProvider.when('/twitter', {
             templateUrl: 'partials/hearth.html',
             controller: 'DemoCtrl',
             authRequired: false,
