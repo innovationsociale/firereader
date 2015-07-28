@@ -75,7 +75,7 @@
             }) || {};
          });
 
-         inst.articleManager = new ArticleManager(inst, provider === 'twitter').syncToFeeds(feeds);
+         inst.articleManager = new ArticleManager(inst, provider === 'demo').syncToFeeds(feeds);
          inst.feedLoader = feedLoader.trackFeeds(feeds);
 
          return inst;
